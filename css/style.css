@@ -1,0 +1,60 @@
+body{
+  background:linear-gradient(135deg, #13f1fc 0%,#0470dc 100%);
+  background:linear-gradient(135deg, #65799b 0%,#5e2563 100%);
+  font-family: 'Noto Sans JP', sans-serif;
+  font-weight: 900;
+  height: 100vh;
+  background-attachment: fixed;
+}
+.Main{
+    font-size: 100px;
+   color: white;
+    height: 100%;
+    width: 100%;
+    max-width: 800px;
+}
+.title{
+   color: white;
+   margin-top: 70px;
+}
+.Date{
+    font-size:50px;
+}
+.Place{
+    font-size: 50px;
+}
+.Value{
+    font-weight: 100;
+    color: white;
+}
+.reports{
+    margin-top: 10px;
+}
+.btn-joins{
+    z-index: 2;
+    position: fixed;
+    right: 100px;
+    bottom: 100px;
+    font-size: 50px;
+    border: none;
+    background:linear-gradient(135deg, rgba(240, 46, 170, 0.4) 0%,#0470dc 100%);
+    border-radius: 0px;
+    color: white;
+    font-weight: 900;
+    box-shadow: rgba(240, 46, 170, 0.4) -5px 5px, rgba(240, 46, 170, 0.3) -10px 10px, rgba(240, 46, 170, 0.2) -15px 15px, rgba(240, 46, 170, 0.1) -20px 20px, rgba(240, 46, 170, 0.05) -25px 25px;
+}
+.card{
+    border: none;
+    box-shadow: rgba(240, 46, 170, 0.4) -5px 5px, rgba(240, 46, 170, 0.3) -10px 10px, rgba(240, 46, 170, 0.2) -15px 15px, rgba(240, 46, 170, 0.1) -20px 20px, rgba(240, 46, 170, 0.05) -25px 25px;
+    background: none;
+    margin: 10px;
+}
+.card-body{
+    background-color: none;
+    color: white;
+    background:linear-gradient(135deg, rgba(240, 46, 170, 0.4) 0%,#8cb6dfa8 100%);
+    font-weight: 100;
+}
+h1{
+    font-weight: 100;
+}
